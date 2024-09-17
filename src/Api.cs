@@ -97,7 +97,11 @@ namespace DocumentPlagiarismChecker
         /// <param name="results">A set of file matching scores</param>
         public void WriteOutput(){
             //TODO: must be selected by settings
+<<<<<<< diego
             TextOutput t = new TextOutput(this.Settings);
+=======
+            TextOutput t = new TextOutput(this.Settings);
+>>>>>>> master
             t.Write(this.MatchingResults);
         }
 
